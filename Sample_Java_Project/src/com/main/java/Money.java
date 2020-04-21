@@ -6,8 +6,8 @@ public class Money {
 	private final String currency;
 	private final Object object;
 	
-	public Money(int amount, String currency, Object object) {
-		this.amount = amount;
+	public Money(int amountValue, String currency, Object object) {
+		this.amount = amountValue;
 		this.currency = currency;
 		this.object = null;
 	}
