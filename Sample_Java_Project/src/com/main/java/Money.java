@@ -6,9 +6,9 @@ public class Money {
 	private final String currency;
 	private final Object object;
 	
-	public Money(int amountValue, String currency, Object object) {
+	public Money(int amountValue, String currencyValue, Object object) {
 		this.amount = amountValue;
-		this.currency = currency;
+		this.currency = currencyValue;
 		this.object = null;
 	}
 	
