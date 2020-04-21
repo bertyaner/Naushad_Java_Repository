@@ -16,7 +16,7 @@ class MoneyTest {
 		assertEquals("USD", money.getCurrency(),"working fine for string");
 		assertNull(money.getObject(),"it is null");
 		assertTrue(money.getCurrency().equalsIgnoreCase("USD"),"it is true");
-		assertFalse(money.getCurrency().equalsIgnoreCase("RS"),"it is true");
+		assertFalse(money.getCurrency().equalsIgnoreCase("RS"),"it is false");
 	}
 
 }
