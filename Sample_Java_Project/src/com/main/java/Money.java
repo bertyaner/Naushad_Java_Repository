@@ -6,6 +6,7 @@ public class Money {
 	private final String currency;
 	private final Object object;
 	private Object branch_1;
+	private Object tmp;
 	
 	public Money(int amountValue, String currency, Object object) {
 		this.amount = amountValue;
